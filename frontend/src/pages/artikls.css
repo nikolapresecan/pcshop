@@ -1,0 +1,82 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    width: 95%;
+  }
+  
+  .kategorije {
+    flex: 1;
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .show-all-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .kategorije h3 {
+    margin-top: 0;
+  }
+  
+  .kategorije ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .kategorije li {
+    margin-bottom: 10px;
+  }
+  
+  .kategorije button {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .artikli {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .artikli-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  
+  .artikl-kartica {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .artikl-kartica h4 {
+    margin: 0 0 10px;
+  }
+  
+  .btnArtikli{
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .btnArtikli:hover {
+    color: #000000;
+  }

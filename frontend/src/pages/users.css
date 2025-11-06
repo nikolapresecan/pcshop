@@ -1,0 +1,19 @@
+.btnAdd {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btnAdd:hover {
+  color: #000000;
+}
+
+.datepicker {
+  width: 638px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #ccd3ed;
+}
